@@ -84,7 +84,7 @@ DATABASES = {
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_HOST_USER = 'bioshoker88@gmail.com'
 EMAIL_HOST_PASSWORD = '070493qwsa'
-EMAIL_PORT = 465
+EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 
 # Password validation
