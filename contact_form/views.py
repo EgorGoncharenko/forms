@@ -13,7 +13,7 @@ class ContactCreate(CreateView):
     def form_valid(self, form):
         data = form.data
         subject = f'Сообщение с формы от {data["first_name"]} {data["last_name"]}Почта отправителя: {data["email"]}'
-        email(subject,recipient_list=False)
+        email(subject, recipient_list=False)
         return super().form_valid(form)
 
 

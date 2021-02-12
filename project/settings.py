@@ -25,7 +25,7 @@ SECRET_KEY = '=ohm+hhdd!$!4m5qeiip4d6r29#21)v1n21oy0%q6tk2!rsq_7'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -87,6 +87,8 @@ EMAIL_HOST_PASSWORD = '070493qwsa'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 
+
+
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
 
@@ -109,7 +111,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/3.1/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'ru-Ru'
 
 TIME_ZONE = 'UTC'
 
